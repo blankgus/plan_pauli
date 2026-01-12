@@ -14,7 +14,7 @@ app.config['SECRET_KEY'] = 'business_plan_ia_escolar_2024'
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 # Configurar OpenAI (opcional)
-openai.api_key = os.environ.get('OPENAI_API_KEY', '')
+openai.api_key = os.environ.get('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', '')
 
 # Configuração do banco de dados
 basedir = os.path.abspath(os.path.dirname(__file__))
